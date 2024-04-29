@@ -33,7 +33,7 @@ body {
 }
 
 .qrImage {
-  background-image: url('Images/qrcode.jpg');
+  background-image: url('/Images/qrcode.jpg');
   display: flex;
   position: relative;
   text-align: center;
