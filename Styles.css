@@ -116,10 +116,7 @@ p {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-.qrImage {
-  border: 1px solid red;
-  height: 25%;
-}
+
 .text {
   text-align: center;
   display: flex;
