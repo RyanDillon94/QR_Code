@@ -111,11 +111,14 @@ p {
   text-align: center;
   justify-content: center;
   height: 30px;
+  width: 90%;
   border-radius: 20px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-
+.qrImage {
+  border: 1px solid red;
+}
 .text {
   text-align: center;
   display: flex;
