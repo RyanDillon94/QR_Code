@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
 }
-@media (min-width: 375px) {
+@media screen (min-width: 375px) {
 .container {
   height: 100vh;
   position: relative;
