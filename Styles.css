@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
 }
-@media (min-width: 375px) {
+
 .container {
   height: 100vh;
   position: relative;
@@ -24,33 +24,25 @@ body {
   display: flex;  
   flex-direction: column;
   position: relative;
-  height: 65%;
+  max-width: 80%; 
   border-radius: 20px;
   background-color: white;
-  margin: 10%;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 img {
-  display: flex;
-  position: relative;
-  text-align: center;
-  justify-content: center;
-  width: 90%;
-  height: 40%;
-  min-height: 350px;
-  margin: 15px auto;
+  width: 95%; /* Use full width of parent container */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 20px;
+  margin: 10px;
 }
 
 .text {
-  margin: 5px;
+  margin: 20px; /* Adjust margins for better spacing */
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 h1 {
@@ -60,84 +52,24 @@ h1 {
 
 p {
   font-size: 18px;
-  margin-top: 30px;
+  margin-top: 20px; 
   color: hsl(220, 15%, 55%);
   font-weight: 400;
-  width: 100%;
 }
-/* footer items */
+
+/* Footer items */
 .attribution { 
   position: absolute;
   bottom: 0;
   width: 100%;
-   font-size: 11px; 
-   text-align: center; 
-   font-weight: 700;
-   color: white;
-   background-color: black;
-   padding: 5px;
- } 
+  font-size: 11px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+  padding: 5px;
+} 
+
 .attribution a {
   color: #00aec6;
-}
-}
-
-@media (min-width: 1000px) {
-.attribution {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-   font-size: 20px; 
-   text-align: center; 
-   font-weight: 700;
-   color: white;
-   background-color: black;
-   padding: 10px;
- } 
- 
-  .outsideBox {
-  display: flex;  
-  flex-direction: column;
-  position: relative;
-  height: 60%;
-  border-radius: 20px;
-  background-color: white;
-  width: 30vw;
-}
- 
- img {
-  display: flex;
-  position: relative;
-  text-align: center;
-  justify-content: center;
-  height: 30px;
-  width: 90%;
-  border-radius: 20px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-.text {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 20px;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 26px;
-}
-
-p {
-  font-size: 18px;
-  margin-top: 30px;
-  color: hsl(220, 15%, 55%);
-  font-weight: 400;
-  width: 100%;
-}
 }
