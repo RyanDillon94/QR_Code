@@ -25,21 +25,6 @@ body {
   flex-direction: column;
   position: relative;
   width: 79%;
-  max-width: 475px; 
-  border-radius: 20px;
-  background-color: white;
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-@media (min-width: 500px) {
-.outsideBox {
-  display: flex;  
-  flex-direction: column;
-  position: relative;
-  width: 60%;
   max-width: 400px; 
   border-radius: 20px;
   background-color: white;
@@ -47,7 +32,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
 }
 img {
   width: 90%; 
