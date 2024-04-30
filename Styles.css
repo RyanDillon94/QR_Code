@@ -82,7 +82,7 @@ p {
 }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 1440px) {
 .attribution {
   position: absolute;
   bottom: 0;
