@@ -24,14 +24,27 @@ body {
   display: flex;  
   flex-direction: column;
   position: relative;
-  width: 400px; 
-  max-width: 385px;
+  width: 87%; 
   border-radius: 20px;
   background-color: white;
   margin: 10px;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+@media (min-width: 450px) {
+  .outsideBox {
+  display: flex;  
+  flex-direction: column;
+  position: relative;
+  width: 400px; 
+  border-radius: 20px;
+  background-color: white;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 }
 img {
   width: 90%; 
