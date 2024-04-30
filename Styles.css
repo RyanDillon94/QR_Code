@@ -33,7 +33,6 @@ body {
 }
 
 .qrImage {
-  background-image: url('images/qrcode.jpg');
   display: flex;
   position: relative;
   text-align: center;
@@ -85,3 +84,40 @@ p {
 }
 }
 
+@media (min-width: 500px) {
+  .outsideBox {
+  display: flex;  
+  flex-direction: column;
+  position: relative;
+  height: 60%;
+  border-radius: 20px;
+  background-color: white;
+  margin: 40%;
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+   font-size: 20px; 
+   text-align: center; 
+   font-weight: 700;
+   color: white;
+   background-color: black;
+   padding: 10px;
+ } 
+ 
+.qrImage {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  height: 40%;
+  min-height: 375px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 15px auto;
+  border-radius: 20px;
+}
+}
