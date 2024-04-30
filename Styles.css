@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   position: relative;
   width: 80%;
-  max-width: 1000px; 
+  max-width: 500px; 
   border-radius: 20px;
   background-color: white;
   margin: 10px;
@@ -35,15 +35,15 @@ body {
 }
 
 img {
-  width: 95%; /* Use full width of parent container */
-  max-width: 900px;
-  height: auto; /* Maintain aspect ratio */
+  width: 95%; 
+  max-width: 500px;
+  height: auto; 
   border-radius: 20px;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 .text {
-  margin: 20px; /* Adjust margins for better spacing */
+  margin: 20px; 
   text-align: center;
 }
 
@@ -74,21 +74,4 @@ p {
 
 .attribution a {
   color: #00aec6;
-}
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px; 
-  }
-.outsideBox {
-  display: flex;  
-  flex-direction: column;
-  position: relative;
-  max-width: 40%; 
-  border-radius: 20px;
-  background-color: white;
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  }
 }
