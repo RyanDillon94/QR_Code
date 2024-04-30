@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   position: relative;
   width: 80%;
-  max-width: 500px; 
+  max-width: 475px; 
   border-radius: 20px;
   background-color: white;
   margin: 10px;
@@ -36,7 +36,7 @@ body {
 
 img {
   width: 95%; 
-  max-width: 500px;
+  max-width: 475px;
   height: auto; 
   border-radius: 20px;
   margin-top: 10px;
