@@ -29,6 +29,7 @@ images/Screenshot_20240430-221752.png
 --- Deleted media queries and used ChatGPT for assistance.
 --- Max-width used to maintain size when scaling up.
 --- Auto height property used.
+---- Re-added media query and re-jigged widths
 
 ### Built with
 - Acode
