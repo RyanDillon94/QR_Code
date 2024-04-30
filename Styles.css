@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
 }
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
 .container {
   height: 100vh;
   position: relative;
@@ -84,3 +84,4 @@ p {
   color: #00aec6;
 }
 }
+
