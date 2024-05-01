@@ -18,10 +18,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshots
 
-- Browser
-  ![Screenshot](QR_Code\images\Screenshot_20240430-221752.png)
-- Mobile
-  ![Screenshot](QR_Code\images\Screenshot_20240429-233234.png)
+![Screenshot](QR_Code\images\Screenshot_20240430-221752.png)
+
+![Screenshot](QR_Code\images\Screenshot_20240429-233234.png)
 
 ## My process
 
